@@ -3,17 +3,17 @@ name: executive-decision-memo-writer
 description: Convert structured evaluation into a concise, executive-ready decision memo with explicit reasoning and risk disclosure.
 ---
 
-# Executive Decision Memo Writer
+## Executive Decision Memo Writer
 
-## Purpose
+### Purpose
 
 Translate structured analysis into a professional, executive-ready recommendation memo.
 
 ---
 
-## When to Use
+### When to Use
 
-Use only after:
+Use after:
 - Evaluation and ranking are complete.
 
 Do NOT use when:
@@ -22,13 +22,13 @@ Do NOT use when:
 
 ---
 
-## Inputs
+### Inputs
 
 - Evaluation output from the Decision Evaluation Engine
 
 ---
 
-## Outputs
+### Outputs
 
 Produce a memo including:
 
@@ -40,11 +40,10 @@ Produce a memo including:
 - **Risks & Sensitivities**
 - **Next Steps**
 
-Length target: ~1 page equivalent.
 
 ---
 
-## Step-by-Step Behavior
+### Step-by-Step Behavior
 
 1. Summarize the core decision clearly.
 2. Present alternatives concisely.
@@ -56,7 +55,7 @@ Length target: ~1 page equivalent.
 
 ---
 
-## Constraints
+### Constraints
 
 - No fluff.
 - No fabricated numbers.
@@ -66,7 +65,7 @@ Length target: ~1 page equivalent.
 
 ---
 
-## Failure Modes
+### Failure Modes
 
 - Generic executive language without analytical substance.
 - Recommendation without rationale.
