@@ -3,34 +3,30 @@ name: decision-problem-structurer
 description: Transform messy user input into a structured decision model. Use when a user provides a business or personal decision problem.
 ---
 
-# Decision Problem Structurer
+## Decision Problem Structurer
 
-## Purpose
+### Purpose
 
 Convert unstructured decision descriptions into a formal, analyzable structure suitable for systematic evaluation.
 
 ---
 
-## When to Use
+### When to Use
 
 Use when:
 - The user provides a messy or partially defined decision.
 - Objectives, constraints, or tradeoffs are unclear.
 - The decision requires structured framing before evaluation.
 
-Do NOT use when:
-- The problem is already fully structured with quantified alternatives and clear objectives.
-
 ---
 
-## Inputs
+### Inputs
 
 - Raw user description of the decision
-- Any known numerical data (optional)
 
 ---
 
-## Outputs
+### Outputs
 
 Produce the following labeled sections:
 
@@ -44,14 +40,14 @@ Produce the following labeled sections:
 
 ---
 
-## Step-by-Step Behavior
+### Step-by-Step Behavior
 
 1. Extract the core decision question.
-2. Define the objective in measurable terms where possible.
+2. Define the objective.
 3. Identify constraints (budget, timeline, risk tolerance, resources).
 4. Identify stakeholders and their incentives.
-5. List explicitly provided alternatives.
-6. Identify missing information critical to the decision.
+5. List alternatives.
+6. Identify necessary missing information to the decision.
 7. Classify the decision type:
    - Risk (probabilities known)
    - Uncertainty (probabilities unknown)
@@ -60,18 +56,17 @@ Produce the following labeled sections:
 
 ---
 
-## Constraints
+#### Constraints
 
-- Do NOT invent data.
+- Do NOT use fake data.
 - Explicitly flag assumptions.
-- Avoid generic filler language.
 - If the objective is ambiguous, ask 2–4 concise clarification questions before proceeding.
 
 ---
 
-## Failure Modes
+### Failure Modes
 
-- Over-assuming user goals.
+- Unplausible user goals.
 - Fabricating constraints.
 - Missing implicit tradeoffs.
 - Proceeding without sufficient clarity.
