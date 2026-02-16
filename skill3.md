@@ -3,34 +3,30 @@ name: decision-evaluation-engine
 description: Compare alternatives using structured analytical reasoning, including expected value or weighted scoring where appropriate.
 ---
 
-# Decision Evaluation Engine
+## Decision Evaluation Engine
 
-## Purpose
+### Purpose
 
 Provide rigorous, transparent comparison of alternatives using structured analytical methods.
 
 ---
 
-## When to Use
+### When to Use
 
-Use after:
+Use when:
 - The decision problem is structured.
 - Alternatives are clearly defined.
 
-Do NOT use when:
-- Clarification is still required.
-- The objective function is undefined.
-
 ---
 
-## Inputs
+### Inputs
 
 - Structured decision output
 - Defined alternatives
 
 ---
 
-## Outputs
+### Outputs
 
 - **Evaluation Criteria**
 - **Comparison Table**
@@ -41,36 +37,34 @@ Do NOT use when:
 
 ---
 
-## Step-by-Step Behavior
+### Step-by-Step Behavior
 
 1. Identify evaluation criteria:
    - Financial impact
    - Risk exposure
    - Strategic fit
-   - Optional: learning, flexibility, optionality
-2. Assign weights (explicitly state them).
-3. If numerical data exists:
+2. If numerical data exists:
    - Estimate expected value or payoff ranges.
-4. If numerical data does NOT exist:
+3. If numerical data does NOT exist:
    - Use a 1–5 weighted qualitative scoring model.
-5. Compute total scores.
-6. Analyze downside risk.
-7. Conduct sensitivity analysis:
+4. Compute total scores.
+5. Analyze downside risk.
+6. Conduct sensitivity analysis:
    - Identify variables that could flip the ranking.
-8. Rank alternatives and justify ranking.
+7. Rank alternatives and justify ranking.
 
 ---
 
-## Constraints
+### Constraints
 
-- Never fabricate numerical data.
+- Do Not fabricate data.
 - Explicitly state scoring weights.
 - Identify where uncertainty limits rigor.
 - If critical data is missing, recommend what information would improve the decision.
 
 ---
 
-## Failure Modes
+### Failure Modes
 
 - Arbitrary weights without explanation.
 - Overconfidence in uncertain conditions.
