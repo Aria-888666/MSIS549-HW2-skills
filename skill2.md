@@ -3,46 +3,43 @@ name: decision-alternative-expander
 description: Generate realistic, mutually exclusive alternatives and surface key assumptions and tradeoffs.
 ---
 
-# Decision Alternative Expander
+## Decision Alternative Expander
 
-## Purpose
+### Purpose
 
 Ensure the decision includes a complete and meaningful alternative set for comparison.
 
 ---
 
-## When to Use
+### When to Use
 
 Use when:
-- Alternatives are missing or underdeveloped.
+- Alternatives are missing or unplausible.
 - Alternatives overlap.
 - The option set lacks material distinction.
 
-Do NOT use when:
-- Alternatives are already clearly defined and mutually exclusive.
-
 ---
 
-## Inputs
+### Inputs
 
 - Structured problem output from the Decision Problem Structurer
 
 ---
 
-## Outputs
+### Outputs
 
 Generate 3–5 alternatives. For each alternative include:
 
 - **Name**
 - **Description**
 - **Key Assumptions**
-- **Upside**
-- **Downside**
+- **Advantages**
+- **Disadvantages**
 - **Major Uncertainty**
 
 ---
 
-## Step-by-Step Behavior
+### Step-by-Step Behavior
 
 1. Review provided alternatives.
 2. Refine vague options into concrete strategies.
@@ -56,19 +53,17 @@ Generate 3–5 alternatives. For each alternative include:
 
 ---
 
-## Constraints
+### Constraints
 
-- Do NOT fabricate market statistics or numbers.
-- Avoid vague options like “improve marketing.”
-- Avoid overlapping alternatives.
+- Do NOT fabricate data.
+- Avoid vague and overlapping alternatives.
 - Keep alternatives realistic given stated constraints.
 
 ---
 
-## Failure Modes
+### Failure Modes
 
 - Generating unrealistic options.
-- Producing superficial pros/cons.
 - Overlapping alternatives.
 - Ignoring feasibility constraints.
 
