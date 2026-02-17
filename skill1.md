@@ -66,7 +66,7 @@ Produce the following labeled sections:
 
 ### Failure Modes
 
-- Unplausible user goals.
+- Implausible user goals.
 - Fabricating constraints.
 - Missing implicit tradeoffs.
 - Proceeding without sufficient clarity.
