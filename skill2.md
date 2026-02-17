@@ -14,7 +14,7 @@ Ensure the decision includes a complete and meaningful alternative set for compa
 ### When to Use
 
 Use when:
-- Alternatives are missing or unplausible.
+- Alternatives are missing or implausible.
 - Alternatives overlap.
 - The option set lacks material distinction.
 
